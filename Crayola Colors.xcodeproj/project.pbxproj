@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525CFA931921716100BDBAB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525CFA921921716100BDBAB8 /* Foundation.framework */; };
+		525CFA951921716100BDBAB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525CFA941921716100BDBAB8 /* CoreGraphics.framework */; };
+		525CFA971921716100BDBAB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525CFA961921716100BDBAB8 /* UIKit.framework */; };
+		525CFA9D1921716100BDBAB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 525CFA9B1921716100BDBAB8 /* InfoPlist.strings */; };
+		525CFA9F1921716100BDBAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 525CFA9E1921716100BDBAB8 /* main.m */; };
+		525CFAA31921716100BDBAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 525CFAA21921716100BDBAB8 /* AppDelegate.m */; };
+		525CFAAB1921716100BDBAB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525CFAAA1921716100BDBAB8 /* Images.xcassets */; };
+		525CFAB21921716100BDBAB8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525CFAB11921716100BDBAB8 /* XCTest.framework */; };
+		525CFAB31921716100BDBAB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525CFA921921716100BDBAB8 /* Foundation.framework */; };
+		525CFAB41921716100BDBAB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525CFA961921716100BDBAB8 /* UIKit.framework */; };
+		525CFABC1921716100BDBAB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 525CFABA1921716100BDBAB8 /* InfoPlist.strings */; };
+		525CFABE1921716100BDBAB8 /* Crayola_ColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525CFABD1921716100BDBAB8 /* Crayola_ColorsTests.m */; };
+		525CFACB192171D100BDBAB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525CFAC8192171D100BDBAB8 /* ViewController.m */; };
+		525CFACC192171D100BDBAB8 /* ColorPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525CFACA192171D100BDBAB8 /* ColorPickerTableViewController.m */; };
+		525CFACE192171F400BDBAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525CFACD192171F400BDBAB8 /* Main.storyboard */; };
+		FE4F222195D843A38B5EC24F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 523A86B6B9954549975882A1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525CFAB51921716100BDBAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525CFA871921716100BDBAB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525CFA8E1921716100BDBAB8;
+			remoteInfo = "Crayola Colors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238BD7523A6F434ABB72475B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		523A86B6B9954549975882A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		525CFA8F1921716100BDBAB8 /* Crayola Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crayola Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525CFA921921716100BDBAB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		525CFA941921716100BDBAB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		525CFA961921716100BDBAB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		525CFA9A1921716100BDBAB8 /* Crayola Colors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crayola Colors-Info.plist"; sourceTree = "<group>"; };
+		525CFA9C1921716100BDBAB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		525CFA9E1921716100BDBAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		525CFAA01921716100BDBAB8 /* Crayola Colors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crayola Colors-Prefix.pch"; sourceTree = "<group>"; };
+		525CFAA11921716100BDBAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		525CFAA21921716100BDBAB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		525CFAAA1921716100BDBAB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		525CFAB01921716100BDBAB8 /* Crayola ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crayola ColorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525CFAB11921716100BDBAB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		525CFAB91921716100BDBAB8 /* Crayola ColorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crayola ColorsTests-Info.plist"; sourceTree = "<group>"; };
+		525CFABB1921716100BDBAB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		525CFABD1921716100BDBAB8 /* Crayola_ColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crayola_ColorsTests.m; sourceTree = "<group>"; };
+		525CFAC7192171D100BDBAB8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		525CFAC8192171D100BDBAB8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		525CFAC9192171D100BDBAB8 /* ColorPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerTableViewController.h; sourceTree = "<group>"; };
+		525CFACA192171D100BDBAB8 /* ColorPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerTableViewController.m; sourceTree = "<group>"; };
+		525CFACD192171F400BDBAB8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525CFA8C1921716100BDBAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525CFA951921716100BDBAB8 /* CoreGraphics.framework in Frameworks */,
+				525CFA971921716100BDBAB8 /* UIKit.framework in Frameworks */,
+				525CFA931921716100BDBAB8 /* Foundation.framework in Frameworks */,
+				FE4F222195D843A38B5EC24F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525CFAAD1921716100BDBAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525CFAB21921716100BDBAB8 /* XCTest.framework in Frameworks */,
+				525CFAB41921716100BDBAB8 /* UIKit.framework in Frameworks */,
+				525CFAB31921716100BDBAB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525CFA861921716100BDBAB8 = {
+			isa = PBXGroup;
+			children = (
+				525CFA981921716100BDBAB8 /* Crayola Colors */,
+				525CFAB71921716100BDBAB8 /* Crayola ColorsTests */,
+				525CFA911921716100BDBAB8 /* Frameworks */,
+				525CFA901921716100BDBAB8 /* Products */,
+				238BD7523A6F434ABB72475B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		525CFA901921716100BDBAB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525CFA8F1921716100BDBAB8 /* Crayola Colors.app */,
+				525CFAB01921716100BDBAB8 /* Crayola ColorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525CFA911921716100BDBAB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				525CFA921921716100BDBAB8 /* Foundation.framework */,
+				525CFA941921716100BDBAB8 /* CoreGraphics.framework */,
+				525CFA961921716100BDBAB8 /* UIKit.framework */,
+				525CFAB11921716100BDBAB8 /* XCTest.framework */,
+				523A86B6B9954549975882A1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		525CFA981921716100BDBAB8 /* Crayola Colors */ = {
+			isa = PBXGroup;
+			children = (
+				525CFAA11921716100BDBAB8 /* AppDelegate.h */,
+				525CFAA21921716100BDBAB8 /* AppDelegate.m */,
+				525CFACD192171F400BDBAB8 /* Main.storyboard */,
+				525CFAC7192171D100BDBAB8 /* ViewController.h */,
+				525CFAC8192171D100BDBAB8 /* ViewController.m */,
+				525CFAC9192171D100BDBAB8 /* ColorPickerTableViewController.h */,
+				525CFACA192171D100BDBAB8 /* ColorPickerTableViewController.m */,
+				525CFAAA1921716100BDBAB8 /* Images.xcassets */,
+				525CFA991921716100BDBAB8 /* Supporting Files */,
+			);
+			path = "Crayola Colors";
+			sourceTree = "<group>";
+		};
+		525CFA991921716100BDBAB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				525CFA9A1921716100BDBAB8 /* Crayola Colors-Info.plist */,
+				525CFA9B1921716100BDBAB8 /* InfoPlist.strings */,
+				525CFA9E1921716100BDBAB8 /* main.m */,
+				525CFAA01921716100BDBAB8 /* Crayola Colors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		525CFAB71921716100BDBAB8 /* Crayola ColorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				525CFABD1921716100BDBAB8 /* Crayola_ColorsTests.m */,
+				525CFAB81921716100BDBAB8 /* Supporting Files */,
+			);
+			path = "Crayola ColorsTests";
+			sourceTree = "<group>";
+		};
+		525CFAB81921716100BDBAB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				525CFAB91921716100BDBAB8 /* Crayola ColorsTests-Info.plist */,
+				525CFABA1921716100BDBAB8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525CFA8E1921716100BDBAB8 /* Crayola Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525CFAC11921716100BDBAB8 /* Build configuration list for PBXNativeTarget "Crayola Colors" */;
+			buildPhases = (
+				D99F9BA845EA4AF7A2C8B601 /* Check Pods Manifest.lock */,
+				525CFA8B1921716100BDBAB8 /* Sources */,
+				525CFA8C1921716100BDBAB8 /* Frameworks */,
+				525CFA8D1921716100BDBAB8 /* Resources */,
+				48B84F4355034F14B92FE0F9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crayola Colors";
+			productName = "Crayola Colors";
+			productReference = 525CFA8F1921716100BDBAB8 /* Crayola Colors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525CFAAF1921716100BDBAB8 /* Crayola ColorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525CFAC41921716100BDBAB8 /* Build configuration list for PBXNativeTarget "Crayola ColorsTests" */;
+			buildPhases = (
+				525CFAAC1921716100BDBAB8 /* Sources */,
+				525CFAAD1921716100BDBAB8 /* Frameworks */,
+				525CFAAE1921716100BDBAB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525CFAB61921716100BDBAB8 /* PBXTargetDependency */,
+			);
+			name = "Crayola ColorsTests";
+			productName = "Crayola ColorsTests";
+			productReference = 525CFAB01921716100BDBAB8 /* Crayola ColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525CFA871921716100BDBAB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hans Sjunnesson";
+				TargetAttributes = {
+					525CFAAF1921716100BDBAB8 = {
+						TestTargetID = 525CFA8E1921716100BDBAB8;
+					};
+				};
+			};
+			buildConfigurationList = 525CFA8A1921716100BDBAB8 /* Build configuration list for PBXProject "Crayola Colors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525CFA861921716100BDBAB8;
+			productRefGroup = 525CFA901921716100BDBAB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525CFA8E1921716100BDBAB8 /* Crayola Colors */,
+				525CFAAF1921716100BDBAB8 /* Crayola ColorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525CFA8D1921716100BDBAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525CFACE192171F400BDBAB8 /* Main.storyboard in Resources */,
+				525CFAAB1921716100BDBAB8 /* Images.xcassets in Resources */,
+				525CFA9D1921716100BDBAB8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525CFAAE1921716100BDBAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525CFABC1921716100BDBAB8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48B84F4355034F14B92FE0F9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D99F9BA845EA4AF7A2C8B601 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525CFA8B1921716100BDBAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525CFACB192171D100BDBAB8 /* ViewController.m in Sources */,
+				525CFAA31921716100BDBAB8 /* AppDelegate.m in Sources */,
+				525CFACC192171D100BDBAB8 /* ColorPickerTableViewController.m in Sources */,
+				525CFA9F1921716100BDBAB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525CFAAC1921716100BDBAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525CFABE1921716100BDBAB8 /* Crayola_ColorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525CFAB61921716100BDBAB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525CFA8E1921716100BDBAB8 /* Crayola Colors */;
+			targetProxy = 525CFAB51921716100BDBAB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525CFA9B1921716100BDBAB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525CFA9C1921716100BDBAB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		525CFABA1921716100BDBAB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525CFABB1921716100BDBAB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525CFABF1921716100BDBAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		525CFAC01921716100BDBAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525CFAC21921716100BDBAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238BD7523A6F434ABB72475B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crayola Colors/Crayola Colors-Prefix.pch";
+				INFOPLIST_FILE = "Crayola Colors/Crayola Colors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		525CFAC31921716100BDBAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238BD7523A6F434ABB72475B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crayola Colors/Crayola Colors-Prefix.pch";
+				INFOPLIST_FILE = "Crayola Colors/Crayola Colors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		525CFAC51921716100BDBAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crayola Colors.app/Crayola Colors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crayola Colors/Crayola Colors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Crayola ColorsTests/Crayola ColorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		525CFAC61921716100BDBAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crayola Colors.app/Crayola Colors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crayola Colors/Crayola Colors-Prefix.pch";
+				INFOPLIST_FILE = "Crayola ColorsTests/Crayola ColorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525CFA8A1921716100BDBAB8 /* Build configuration list for PBXProject "Crayola Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525CFABF1921716100BDBAB8 /* Debug */,
+				525CFAC01921716100BDBAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525CFAC11921716100BDBAB8 /* Build configuration list for PBXNativeTarget "Crayola Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525CFAC21921716100BDBAB8 /* Debug */,
+				525CFAC31921716100BDBAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525CFAC41921716100BDBAB8 /* Build configuration list for PBXNativeTarget "Crayola ColorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525CFAC51921716100BDBAB8 /* Debug */,
+				525CFAC61921716100BDBAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525CFA871921716100BDBAB8 /* Project object */;
+}
